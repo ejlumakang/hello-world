@@ -1,0 +1,40 @@
+from turtle import *
+
+t = Turtle()
+s = Screen()
+
+t.speed(1)
+
+t.fillcolor('red')
+t.begin_fill()
+t.forward(100)
+t.left(90)
+t.forward(100)
+t.left(90)
+t.forward(100)
+t.left(90)
+t.forward(100)
+t.end_fill()
+t.left(90)
+t.forward(100)
+
+t.fillcolor('blue')
+t.begin_fill()
+t.left(45)
+t.forward(50)
+t.left(45)
+t.forward(100)
+t.left(135)
+t.forward(50)
+t.end_fill()
+
+t.fillcolor('yellow')
+t.begin_fill()
+t.backward(50)
+t.right(45)
+t.forward(100)
+t.left(45)
+t.forward(50)
+t.end_fill()
+
+s.exitonclick()
